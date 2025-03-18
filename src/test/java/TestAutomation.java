@@ -14,4 +14,10 @@ public class TestAutomation
         Thread.sleep(6000);
         driver.close();
     }
+
+    @Test
+    public void secondCode()
+    {
+        WebDriverManager.chromedriver().setup();
+    }
 }
